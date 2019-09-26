@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+  
+<html>  
+<head>  
+<meta charset="utf-8">  
+<title>Insert title here</title> 
+<style>body {background-color: powderblue;} form, h1 {text-align: center;} .container{text-align: center;} </style>
+</head>  
+<body>  
+  
+<h1>Add New Product</h1>  
+<form action="SaveServlet" method="post">  
+<table align="center">  
+<tr><td>Author: </td><td><input type="text" name="author"/></td></tr>  
+<tr><td>Title: </td><td><input type="text" name="title"/></td></tr>  
+<tr><td>Price: </td><td><input type="text" name="price"/></td></tr>  
+<tr><td>Quantity</td><td><input type="text" name="qty"/></td></tr> 
+
+<tr><td colspan="2"><input type="submit" value="Save Product"/></td></tr>  
+</table>  
+</form>  
+  
+<br/>  
+<div class="container" >
+<a href="ViewServlet">View products</a>  
+  </div>
+</body>  
+</html> 
